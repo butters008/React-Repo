@@ -1,0 +1,26 @@
+.TodoItem{
+    border-radius: 5px;
+    border: 5px black solid;
+    display:grid;
+    grid-template-rows: .5fr 1.5fr;
+    grid-template-columns: .5fr 1.5fr;
+    grid-template-areas: 
+        "TodoItemTime TodoItemTitle"
+        "TodoItemDifficulty TodoItemDescription";
+    justify-content: center;
+    background-color: rgba(203, 203, 203, 0.597);
+
+}
+
+.TodoItemTime{
+    grid-area: TodoItemTime;
+}
+.TodoItemTitle{
+    grid-area: TodoItemTitle;
+}
+.TodoItemDifficulty{
+    grid-area: TodoItemDifficulty;
+}
+.TodoItemDescription{
+    grid-area: TodoItemDescription;
+}
